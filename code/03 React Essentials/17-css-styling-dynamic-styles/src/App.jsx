@@ -83,4 +83,20 @@ function App() {
   );
 }
 
+// function App() {
+//     const [state, setState] = React.useState();
+    
+//     let content = <p>Style me!</p>;
+//     if (state === "active") {
+//         content = <p className='active'>Style mefff!!h!</p>;
+//     }
+    
+//     return (
+//         <div>
+//             {content}
+//             <button onClick={() => setState("active")}>Toggle style</button>
+//         </div>
+//     );
+// }
+
 export default App;

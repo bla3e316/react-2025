@@ -65,4 +65,24 @@ function App() {
   );
 }
 
+// function App() {
+//     const [buttonState, setButtonState] = React.useState();
+
+//     let content = <button onClick = {() => setButtonState(true)}>Delete</button>;
+//     if (buttonState) {
+//         content = (
+//         <div data-testid="alert" id="alert">
+//           <h2>Are you sure?</h2>
+//           <p>These changes can't be reverted!</p>
+//           <button onClick = {() => setButtonState(false)}>Proceed</button>
+//         </div>
+//         );
+//     }
+    
+//     return (
+//       <div>
+//         {content}
+//       </div>    
+//     );
+
 export default App;
